@@ -145,6 +145,13 @@ input, select, textarea {
 	box-shadow: 20px 20px 10px 5px #03242a21
 }
 
+#about-image{
+	padding-top: 1.8em;
+	height: 300px;
+	width: 275px;
+	border-radius: 600px;
+}
+
 /* Type */
 
 	body, input, select, textarea {
