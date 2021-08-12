@@ -119,14 +119,24 @@ input, select, textarea {
 	padding: 0px;
 }
 
+#splash2{
+	display: grid;
+	grid-template-columns: 5% 42% 5% 42% 5%;
+	grid-template-rows: 5% 45% 45% 5%;
+	justify-items: center;
+	padding: 35px;
+}
+
 .image-container{
 	/* grid-row-start, grid-column-start, grid-row-end, grid-column-end. */
-	grid-area: 1/2/5/3;
+	grid-area: 2/2/4/3;
 }
 
 .name-container{
 	/* grid-row-start, grid-column-start, grid-row-end, grid-column-end. */
-	grid-area: 2/4/3/5;
+	grid-area: 1/4/5/5;
+	font-size: 18px;
+	padding-top: 3em;
 }
 
 .title-container{
@@ -146,10 +156,10 @@ input, select, textarea {
 }
 
 #about-image{
-	padding-top: 6.5em;
-	/* height: 500px; */
+	padding-top: 3em;
+	height: 850px;
 	/* width: 200px; */
-	border-radius: 100px;
+	border-radius: 80px;
 	box-shadow: 0px 0px 0px 0px;}
 
 /* Type */
