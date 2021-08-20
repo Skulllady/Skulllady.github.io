@@ -130,13 +130,15 @@ input, select, textarea {
 .image-container{
 	/* grid-row-start, grid-column-start, grid-row-end, grid-column-end. */
 	grid-area: 2/2/4/3;
+	display: flex;
+	align-items: flex-end;
 }
 
 .name-container{
 	/* grid-row-start, grid-column-start, grid-row-end, grid-column-end. */
 	grid-area: 2/4/5/5;
 	font-size: 18px;
-	padding-top: 3em;
+	padding-top: 1em;
 }
 
 .title-container{
