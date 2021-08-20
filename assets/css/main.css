@@ -134,7 +134,7 @@ input, select, textarea {
 
 .name-container{
 	/* grid-row-start, grid-column-start, grid-row-end, grid-column-end. */
-	grid-area: 1/4/5/5;
+	grid-area: 2/4/5/5;
 	font-size: 18px;
 	padding-top: 3em;
 }
@@ -201,7 +201,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: inherit;
 		text-decoration: none;
 	}
